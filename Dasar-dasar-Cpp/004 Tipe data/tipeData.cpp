@@ -19,5 +19,8 @@ int main(){
   // Char ( 'a' / '@')
   char nilaiChar;
   
+  // String ( sekumulan dari char membentuk sebuah kalimat )
+  string nama;
+  
   return 0;
 }
