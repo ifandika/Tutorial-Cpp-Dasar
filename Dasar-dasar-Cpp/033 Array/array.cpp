@@ -45,6 +45,10 @@ int main(){
   arrayStd[1] = 200;
   arrayStd[2] = 300;
   
+  cout << "size arrayStd   : " << arrayStd.size() << endl;
+  cout << "address awal    : " << arrayStd.begin() << endl;
+  cout << "address akhir   : " << arrayStd.end() << endl;
+  cout << "nilai array no 2: " << arrayStd.at(1) << endl;
   cout << "Nilai arrayStd 0: " << arrayStd[0] << endl;
   cout << "Nilai arrayStd 1: " << arrayStd[1] << endl;
   cout << "Nilai arrayStd 2: " << arrayStd[2] << endl;
