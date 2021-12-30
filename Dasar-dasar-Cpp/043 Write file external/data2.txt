@@ -1,0 +1,2 @@
+menuliskan data ke file external dengan method truc
+ini data 2

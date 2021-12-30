@@ -1,0 +1,5 @@
+menuliskan data dengan method ios::app
+menuliskan data ke file data3.txt
+menuliskan data dengan method ios::app
+menuliskan data ke file data3.txt
+menambahkan baris baru

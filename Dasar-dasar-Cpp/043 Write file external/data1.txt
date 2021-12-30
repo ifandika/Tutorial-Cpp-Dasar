@@ -1,0 +1,2 @@
+menuliskan data ke file external
+menuliskan dengan ofstream

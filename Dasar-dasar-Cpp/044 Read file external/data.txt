@@ -1,0 +1,7 @@
+ini file data.txt
+daftar siswa
+no nama 
+1  dika
+2  ifan
+3  jupri
+4  jamet
