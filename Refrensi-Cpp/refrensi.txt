@@ -1,9 +1,25 @@
 Sumber sumber refrensi C++/cpp
 
 // Google
-
+ #Free
+ • https://www.cplusplus.com/ 
+ • https://en.cppreference.com/
+ • https://www.w3schools.com/
+ • https://www.programiz.com/
+ • https://www.petanikode.com/
+ 
 // Youtube 
-
+ #Free
+ • Kelas Terbuka ( Indonesian )
+ • Bro Code ( English )
+ • freeCodeCamp.org ( English )
+ • Jagat Koding ( Indonesian )
+ • SimpliLearn ( English )
+ • eduraka! ( English )
+ 
 // Telegram (Grub)
+ • https://t.me/idcplc | Indonesian C/C++ Warriors
+
+
 
 // Discord (Grub)
