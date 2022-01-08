@@ -6,9 +6,9 @@
 int main(){
   std::fstream Data;
   
-  fctn::check_Database(Data);
+  func::check_Database(Data);
   
-  int select = fctn::main_Menu();
+  int select = func::main_Menu();
   char isContinue;
   
   enum Alias{CREATE = 1, READ, UPDATE, DELETE, FINISH};
@@ -17,9 +17,11 @@ int main(){
     switch (select){
       case CREATE:
         std::cout << ">>> CREATE NEW PESERTA <<<" << std::endl;
+        func::main_AddPeserta(Data);
         break;
       case READ:
         std::cout << ">>> DISPLAY PESERTA <<<" << std::endl;
+        func::main_ReadPeserta(Data);
         break;
       case UPDATE:
         std::cout << ">>> UPDATE PESERTA <<<" << std::endl;
@@ -36,7 +38,7 @@ int main(){
     std::cin >> isContinue;
     
     if ((isContinue == 'y') | (isContinue == 'Y')){
-      select = fctn::main_Menu();
+      select = func::main_Menu();
     }
     else if ((isContinue == 'n') | (isContinue == 'N')){
       break;

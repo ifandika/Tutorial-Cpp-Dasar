@@ -12,6 +12,7 @@ int main(){
   // <<    -> simbol untuk output
   // >>    -> simbol untuk input
   // cout  -> console out, menampilkan data ke console/terminal/cmd
+  // cin  -> console input, memberikan input data ke pengguna
   // endl  -> untuk membuat new line, baris baru di bawahnya
   // ( ; ) -> program di akhiri dengan titik koma
   std::cout << "Deklarasi pada C++/cpp" << std::endl;
