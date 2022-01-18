@@ -3,15 +3,13 @@ using namespace std;
 
 int main(){
   
-  // pointer : address dari nilai 
-  // ketika data yang menggunakan pointer maka memory yang digunakan hanya satu buah blok saja
-  //  karena memiliki address yang sama dan juga nilai
-  // address selalu berubah ubah
-  // menggunakan simbol asterik ( * )
+  // pointer ( Petunjuk ) : address dari nilai, Menunjuk address dari variabel lain
+  // Deklarasi pointer dengan simbol Asterik ( * )
+  // • address selalu berubah ubah
   // dereferencing : mengambil data sebuah pointer
   // jika nilai pointer di ubah, maka nilai yang address sama dengan nilai pointer akan berubah
-  // • jika mengambil address maka tidak menggunakan ( * )
-  // • jika mengambil nilai maka menggunakan ( * )
+  // • Mengambil nilai dari pointer ( * ) => *myPtr
+  // • mengambil address dari pointer ( tidak * ) => myPtr
   
   int val_1 = 10;
   int val_2 = val_1;

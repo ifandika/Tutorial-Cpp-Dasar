@@ -1,53 +1,69 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "function.h"
+#include <limits>
+#include "crud.h"
+
+// Latihan MultiFile CRUD dengan Header File
+// Jika File Cpp lebih dari 1 maka proses compile harus bersamaan kecuali menggunakan IDE
 
 int main(){
-  std::fstream Data;
+  std::fstream Data;// Data Primary
   
-  func::check_Database(Data);
+  crud::get_CheckDatabase(Data);
   
-  int select = func::main_Menu();
+  int input = crud::getMenu();
   char isContinue;
   
   enum Alias{CREATE = 1, READ, UPDATE, DELETE, FINISH};
   
-  while (select != FINISH){
-    switch (select){
+  while (input != FINISH){
+    // Bisa juga menggunakan if else
+    switch (input){
       case CREATE:
-        std::cout << ">>> CREATE NEW PESERTA <<<" << std::endl;
-        func::main_AddPeserta(Data);
+        std::cout << ">> Create New Student <<" << std::endl;
+        crud::get_AddSiswa(Data);
         break;
       case READ:
-        std::cout << ">>> DISPLAY PESERTA <<<" << std::endl;
-        func::main_ReadPeserta(Data);
+        std::cout << ">> Display Student <<" << std::endl;
+        crud::get_DisplayData(Data);
         break;
       case UPDATE:
-        std::cout << ">>> UPDATE PESERTA <<<" << std::endl;
+        std::cout << ">> Update Student <<" << std::endl;
+        crud::get_DisplayData(Data);
+        crud::get_UpdateData(Data);
         break;
       case DELETE:
-        std::cout << ">>> DELETE PESERTA <<<" << std::endl;
+        std::cout << ">> Delete Student <<" << std::endl;
+        crud::get_DisplayData(Data);
+        std::cout << std::endl;
+        crud::get_DeleteData(Data);
+        std::cout << std::endl;
+        std::cout << ">>> Delete Success <<<\n\n";
         break;
       default:
-        std::cout << "!!! Input Not Foud !!!\n";
+        std::cout << ">> Input Not Found ? <<" << std::endl;
     }
-    label:
     
-    std::cout << "Continue to menu Y/n : ";
+    // label
+    labelReturn:
+    
+    std::cout << "Continue in menu program (y/n): ";                
     std::cin >> isContinue;
     
     if ((isContinue == 'y') | (isContinue == 'Y')){
-      select = func::main_Menu();
+      input = crud::getMenu();
     }
     else if ((isContinue == 'n') | (isContinue == 'N')){
       break;
     }
     else {
-      goto label;
+      goto labelReturn;
     }
   }
   
-  std::cout << ">> PROGRAM END <<" << std::endl;
+  std::cout << "<<< Program Finished >>>" << std::endl;
+  Data.close();
+  
   return 0;
 }

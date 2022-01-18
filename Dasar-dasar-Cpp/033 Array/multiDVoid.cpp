@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 // menggunakan void
 void fungsiVoid(int *ptrArray, int baris, int kolom){
   int index = 0;
@@ -12,6 +13,7 @@ void fungsiVoid(int *ptrArray, int baris, int kolom){
   cout << endl;
   }
 }
+
 int main(){
   // multidimensi array dengan fungsi void (tampa kembalian)
   int arrayMul[2][2]= {0,1,2,3};

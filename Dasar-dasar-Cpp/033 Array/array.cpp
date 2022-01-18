@@ -9,7 +9,7 @@ int main(){
   // index / nomer pada array di mulai dari 0,
   // pada array jumlah data yang akan dimasukan harus diketahui
   
-  // array tampa standard library
+  // array tanpa standard library
   int valArray[3];
   // mengisi data / nilai pada array jika array kosong
   valArray[0] = 10;

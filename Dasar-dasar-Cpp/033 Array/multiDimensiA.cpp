@@ -6,7 +6,6 @@ int main(){
   
   // multidimensi array built in
   
-  // biasa
   int valRay[3][3] = {0,1,2,3,4,5};
   
   // valRay[kotak berapa][index / nomer]

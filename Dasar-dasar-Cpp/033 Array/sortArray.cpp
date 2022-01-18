@@ -1,6 +1,6 @@
 #include <iostream>
 #include <array>
-// standard library untuk sorting, seraching dll
+// standard library untuk sorting, searching dll
 #include <algorithm>
 using namespace std;
 

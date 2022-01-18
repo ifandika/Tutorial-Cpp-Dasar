@@ -1,5 +1,17 @@
 #include <iostream>
 
+// C++ Creator = Bjarne Stroustrup
+// Version C++
+// >> C++ Standard <<
+
+// [ Year ][      C++ Standard      ][ Versi ]
+//  1998  | ISO/IEC 14882:1998[30] 	| C++98
+//  2003  | ISO/IEC 14882:2003[31]  | C++03
+//  2011  | ISO/IEC 14882:2011[32]	| C++11
+//  2014  | ISO/IEC 14882:2014[33]  | C++14
+//  2017  | ISO/IEC 14882:2017[34]  | C++17
+//  2020  | ISO/IEC 14882:2020[13]	| C++20
+
 /* Proses File C++ */
 
 // File.cpp => Preprocessing => Compile => Lingking => Finish
@@ -18,7 +30,7 @@
 //            lalu lingker / lingking akan memproses semua file menjadi 1 buah file output yang akan di jalankan 
 //            windows ( .exe ) | mac os / linux ( .out )
 
-/* Perintah compile => ( mingw ) */
+/* Perintah compile => ( Compiler mingw ) */
 
 // g++ namaFile | g++ main.cpp = me COMPILE file cpp
 // g++ namaFile.o | g++ main.o = langsung menjadi objek ( obj ) file cpp ( .o ), atau mesin code

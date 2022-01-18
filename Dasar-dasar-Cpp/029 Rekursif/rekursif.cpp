@@ -25,14 +25,14 @@ int pangkat_rekursif(int beg, int end){
   
   // • return 3 * fungsi(3, (3-1) = 2)   -> 3 * hasil bawah(9) = (27)^
   //   • return 3 * fungsi(3, (2-1) = 1)   -> 3 * return beg(3) = (9)^
-      
+ 
   // karena nilai end == 1, maka return beg
 }
 
 int main(){
   
-  // rekursif, recursion = perulangan
-  // sebuah fungsi yang memanggil fungsi
+  // rekursif ( Recursive ), recursion = perulangan
+  // sebuah fungsi yang memanggil fungsinya SENDIRI
   
   // int main(){ -> tidak boleh karena true terus                
   //   main()        maka harus membuah ( finit rekursif )
