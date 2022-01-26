@@ -28,5 +28,6 @@ int main(){
   cout << "val int  " << siswa.val_int << endl;
   cout << "val char " << siswa.val_char << endl;
   
+  cin.get();
   return 0;
 }

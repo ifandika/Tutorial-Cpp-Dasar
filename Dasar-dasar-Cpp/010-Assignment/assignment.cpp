@@ -3,12 +3,20 @@ using namespace std;
 
 int main(){
   
-  // Operator assigment
+  // Operator Assigment ( Biasanya digunakan dalam Loop )
+  
   // += ( Penjumlahan )
   // -= ( Pengurangan )
   // /= ( Pembagian )
   // *= ( Perkalian )
   // %= ( Modulus )
+  
+  
+  // Contoh:
+  // Tanpa Assigment
+  // = n(0) + n(1) = n(1)
+  // Dengan Assigment
+  // = n(0) = n(0) + n(1)
   
   // Deklarasi tipe data
   int nilai1 = 10;
@@ -37,5 +45,6 @@ int main(){
   nilai5 %= 3;
   cout << "Modulus " << nilai5 << endl;
   
+  cin.get();
   return 0;
 }

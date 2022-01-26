@@ -13,7 +13,7 @@ int main(){
   cout << "volume default(L, T)    = " << hitungVolume(40) << " cm³" << endl;
   cout << "volume default(P, L, T) = " << hitungVolume() << " cm³" << endl;
   
-  
+  cin.get();
   return 0;
 }
 // fungsi hitung volume

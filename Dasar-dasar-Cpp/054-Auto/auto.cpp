@@ -39,5 +39,6 @@ int main(){
   printData(D);
   cout << "nilai maX: " << hasil << "\t\tTipe data: " << typeid(hasil).name() << endl;// int vS double = double
   
+  cin.get();
   return 0;
 }

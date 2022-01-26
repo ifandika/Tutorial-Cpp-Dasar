@@ -25,5 +25,6 @@ int main(){
   cout << "new bahasa: " << BAHASA << endl;
   cout << "TERNARY: " << TERNARY(10, 9) << endl;
   
+  cin.get();
   return 0;
 }

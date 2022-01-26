@@ -18,5 +18,6 @@ int main(){
   
   cout << "nama anda : " << val_input << endl;
   
+  cin.get();
   return 0;
 }

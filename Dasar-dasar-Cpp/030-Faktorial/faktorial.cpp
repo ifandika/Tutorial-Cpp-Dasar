@@ -25,5 +25,6 @@ int main(){
   
   cout << "nilai faktorial: " << faktorial(input) << endl;
   
+  cin.get();
   return 0;
 }

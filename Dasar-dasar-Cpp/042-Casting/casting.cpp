@@ -23,5 +23,6 @@ int main(){
   // A + 5 = A ( B C D E F ) 5
   cout << (char)(nilai_c + nilai_i) << endl;
   
+  cin.get();
   return 0;
 }

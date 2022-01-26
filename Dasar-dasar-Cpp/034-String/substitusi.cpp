@@ -35,5 +35,6 @@ int main(){
   cout << "1: " << kata_2<< endl;
   cout << "2: " << kata_1 << endl;
   
+  cin.get();
   return 0;
 }

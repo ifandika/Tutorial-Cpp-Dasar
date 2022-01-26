@@ -22,6 +22,7 @@ int main(){
   cout << "address input: " << &input << endl;
   printKuadrat(input);
   
+  cin.get();
   return 0;
 }
 // hitung sisi

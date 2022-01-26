@@ -26,5 +26,6 @@ int main(){
   cout << "address nilai_1  | " << &nilai_1 << endl;
   cout << "address nilaiR_1 | " << &nilaiR_1 << endl;
   
+  cin.get();
   return 0;
 }

@@ -30,5 +30,6 @@ int main(){
     cout << "input anda: " << inputS << endl;
   }
   
+  cin.get();
   return 0;
 }

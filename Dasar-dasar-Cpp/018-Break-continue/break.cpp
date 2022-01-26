@@ -18,9 +18,10 @@ int main(){
       cout << "Nilai adalah 10" << endl;
     case 5:
       cout << "Nilai adalah 5" << endl;
-    default:
+    default: // Jika Kondisi di atas tidak ada yang terpenuhi
       cout << "Nilai bukan 20, 10 atau 5" << endl;
   }
   
+  cin.get();
   return 0;
 }

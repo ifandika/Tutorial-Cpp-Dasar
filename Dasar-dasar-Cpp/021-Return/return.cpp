@@ -39,5 +39,6 @@ int main(){
   luasSegi = luasSegitiga(10, 20);
   cout << luasSegi << endl;
   
+  cin.get();
   return 0;
 }

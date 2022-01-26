@@ -27,10 +27,11 @@ int main(){
   while (!myFile.eof()){
     myFile >> no;
     myFile >> nama;
-    cout << no << "\t" << nama << endl;
+    cout << no << " " << nama << endl;
     data++;
   }
   cout << "Jumlah data: " << data << endl;
   
+  cin.get();
   return 0;
 }

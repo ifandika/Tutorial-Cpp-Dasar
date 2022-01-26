@@ -24,5 +24,6 @@ int main(){
     cout << nilai2 << endl;
   }
   
+  cin.get();
   return 0;
 }

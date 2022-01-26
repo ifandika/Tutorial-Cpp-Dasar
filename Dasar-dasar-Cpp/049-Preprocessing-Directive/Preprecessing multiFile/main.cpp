@@ -24,5 +24,6 @@ int main(){
   cout << "NIS siswa2: " << siswa2.NIS << endl;
   cout << "Nama siswa2: " << siswa2.dataStr << endl;
   
+  cin.get();
   return 0;
 }

@@ -31,5 +31,6 @@ int main(){
   hasil = (val_1 = 5 , print_Data(val_1) , val_2 = 10 , print_Data(val_2) , (val_1+val_2));
   cout << "hasil " << hasil << endl;
   
+  cin.get();
   return 0;
 }

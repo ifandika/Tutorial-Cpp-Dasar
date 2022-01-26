@@ -22,5 +22,6 @@ int main(){
   
   writeFile.close();
   
+  cin.get();
   return 0;
 }

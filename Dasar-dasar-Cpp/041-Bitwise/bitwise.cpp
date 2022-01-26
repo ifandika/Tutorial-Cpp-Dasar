@@ -102,5 +102,6 @@ int main(){
   // >> = bitwise SHR (shift Bits Right)
  // menggeser bit ke kanan
   
+  cin.get();
   return 0;
 }

@@ -32,5 +32,6 @@ int main(){
   // Mengambil fungsi dari void hitungLuas()
   hitungLuas();
   
+  cin.get();
   return 0;
 }

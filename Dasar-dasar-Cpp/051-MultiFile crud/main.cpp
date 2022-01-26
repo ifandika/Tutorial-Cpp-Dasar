@@ -65,5 +65,6 @@ int main(){
   std::cout << "<<< Program Finished >>>" << std::endl;
   Data.close();
   
+  cin.get();
   return 0;
 }

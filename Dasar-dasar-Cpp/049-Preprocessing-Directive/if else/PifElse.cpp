@@ -26,5 +26,6 @@ int main(){
   cout << endl;
   cout << "OUTPUT   : " << OUTPUT << endl;
   
+  cin.get();
   return 0;
 }

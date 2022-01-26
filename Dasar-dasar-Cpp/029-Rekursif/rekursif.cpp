@@ -52,5 +52,6 @@ int main(){
   cout << "hasil pangkat rekursif: ";
   cout << pangkat_rekursif(input_beg, input_end);
   
+  cin.get();
   return 0;
 }

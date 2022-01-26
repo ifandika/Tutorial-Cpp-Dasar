@@ -30,5 +30,6 @@ int main(){
     begin += 5;
   }
   
+  cin.get();
   return 0;
 }

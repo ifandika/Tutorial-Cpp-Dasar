@@ -34,5 +34,6 @@ int main(){
   
   cout << "Ambil scope global : " << ::global << endl;
   
+  cin.get();
   return 0;
 }

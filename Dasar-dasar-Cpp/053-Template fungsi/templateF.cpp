@@ -50,5 +50,7 @@ int main(){
   cout << output<int>(10.9383) << endl;
   
   cout  << endl;
+  
+  cin.get();
   return 0;
 }

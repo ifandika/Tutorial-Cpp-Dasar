@@ -39,5 +39,6 @@ int main(){
   myFile << "menambahkan baris baru" << endl;
   myFile.close();
   
+  cin.get();
   return 0;
 }

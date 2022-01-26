@@ -43,5 +43,7 @@ int main(){
   // Logika pun bisa di gabung 
   // contoh : notOr ( not + or )
   //          NAND ( not + and )
+  
+  cin.get();
   return 0;
 }

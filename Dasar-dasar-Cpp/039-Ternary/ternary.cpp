@@ -21,5 +21,6 @@ int main(){
   
   cout << ((input >= 10) ? outputA:outputB) << endl;
   
+  cin.get();
   return 0;
 }

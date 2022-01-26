@@ -66,5 +66,7 @@ int main(){
   // = throw "Pesan";
   
   cout << "Akhir dari program" << endl;
+  
+  cin.get();
   return 0;
 }

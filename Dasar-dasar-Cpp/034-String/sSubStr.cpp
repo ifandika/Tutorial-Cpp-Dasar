@@ -20,5 +20,6 @@ int main(){
   
   cout << "nama anda: " << inputNama.substr(0,4) << endl;
   
+  cin.get();
   return 0;
 }

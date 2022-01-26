@@ -21,5 +21,6 @@ int main(){
   // error, karena Preprocessing D tidak mempunyai memory
   // cout << "address PI: " << &PI << endl;
   
+  cin.get();
   return 0;
 }

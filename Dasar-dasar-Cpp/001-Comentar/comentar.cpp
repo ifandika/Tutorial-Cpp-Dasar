@@ -2,11 +2,13 @@
 
 int main(){
   
-  // Satu line
+  // Single line
   /*
-     Multi line
+    Multi line
   */
+  
   std::cout << "Comentar satu line & Multi line" << std::endl;
   
+  std::cin.get();
   return 0;
 }

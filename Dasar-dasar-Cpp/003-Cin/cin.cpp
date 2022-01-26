@@ -9,5 +9,6 @@ int main(){
   
   std::cout << "nilai yang dimasukan " << value << std::endl;
   
+  std::cin.get();
   return 0;
 }

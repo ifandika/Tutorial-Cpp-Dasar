@@ -29,5 +29,6 @@ int main(){
     cout << "nama anda: " << nama << endl;
   }
   
+  cin.get();
   return 0;
 }

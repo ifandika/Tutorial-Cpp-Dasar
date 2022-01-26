@@ -13,5 +13,6 @@ int main(){
   
   cout << "nilai a akhir : " << a << endl;
   
+  cin.get();
   return 0;
 }

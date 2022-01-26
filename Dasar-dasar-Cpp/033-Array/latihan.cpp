@@ -76,8 +76,7 @@ int main(){
     }
   }
   
-  // footer
-  cin.get();
+  cin.get(); 
   return 0;
 }
 

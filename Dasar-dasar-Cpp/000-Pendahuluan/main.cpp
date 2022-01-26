@@ -19,14 +19,14 @@
 /* File.cpp = berupa file cpp kita */
 
 // Preprocessing = Memproses file cpp kita, jika file cpp kita me include file lain
-//                 contoh seperti me include iostream, iostream adalah library syntak untuk memprogram cpp
-//                 maka Preprocessing akan memproses file cpp kita menjadi file Preprocessing ( .p ), yang 
-//                 selanjutnya akan di compile
+//                 contoh seperti me include iostream, iostream adalah sebuah file / library untuk memprogram cpp
+//                 maka Preprocessing akan mengambil file iostream lalu menggabungkan ke dalam file cpp kita yang
+//                 selanjutnya akan di compile ( Extensi File Preprocessing = .p )
 
-// Compile = hasil file Preprocessing lalu di proses menjadi objek file ( obj file ), atau mesin code
-//           yang selanjutnya akan menuju lingker / lingking
+// Compile = hasil file Preprocessing lalu di compile dan menjadi objek file ( obj file ), atau mesin code agar bisa dibaca
+//           atau dijalankan oleh komputer / system komputer, yang selanjutnya ke tahap lingker / lingking
 
-// lingking = Hasil file Compile yang selanjutnya akan di proses jika file kita me include file header / file cpp lain
+// lingking = Hasil file Compile yang selanjutnya akan di proses jika file kita me include file header / file cpp lain.
 //            lalu lingker / lingking akan memproses semua file menjadi 1 buah file output yang akan di jalankan 
 //            windows ( .exe ) | mac os / linux ( .out )
 
@@ -44,5 +44,6 @@ int main(){
   
   std::cout << "Selamat datang" << std::end;
   
+  std::cin.get(); // Memberikan enter untuk mengakhiri program
   return 0;
 }

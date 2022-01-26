@@ -7,7 +7,7 @@ int main(){
   
   // Deklarasi
   int a = 10;
-  int a = 20;
+  int b = 20;
   bool hasil;
   // 1 = True
   // 0 = False
@@ -36,5 +36,6 @@ int main(){
   hasil = (b >= a);
   cout << "Lebih dari sama dengan : " << hasil << endl;
   
+  cin.get();
   return 0;
 }

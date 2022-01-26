@@ -66,5 +66,6 @@ int main(){
   cout << "Address 0: " << &arrayStd2[0] << endl;
   cout << "Address 0: " << &arrayStd2[1] << endl;
   
+  cin.get();
   return 0;
 }

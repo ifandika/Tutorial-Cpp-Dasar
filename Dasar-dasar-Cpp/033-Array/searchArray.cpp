@@ -45,5 +45,6 @@ int main(){
     cout << "data tidak ditemukan" << endl;
   }
   
+  cin.get();
   return 0;
 }

@@ -18,5 +18,6 @@ int main(){
   // cara 2
   cout << "email anda: " << inputString.append("@gmail.com") << endl;
   
+  cin.get();
   return 0;
 }

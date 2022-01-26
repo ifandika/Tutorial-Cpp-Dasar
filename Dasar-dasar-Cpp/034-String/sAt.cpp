@@ -35,5 +35,6 @@ int main(){
   cout << "kata 2: " << charMiddle << endl;
   cout << "kata 2: " << charEnd << endl;
   
+  cin.get();
   return 0;
 }

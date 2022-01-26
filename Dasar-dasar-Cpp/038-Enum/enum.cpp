@@ -25,5 +25,6 @@ int main(){
   cout << "Nomer DELETED: " << DELETED << endl;
   cout << "Nomer FINISH : " << FINISH << endl;
   
+  cin.get();
   return 0;
 }

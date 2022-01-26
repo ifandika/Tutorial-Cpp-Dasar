@@ -21,5 +21,6 @@ int main(){
     cout << fibo_begin << " ";
   }
   
+  cin.get();
   return 0;
 }

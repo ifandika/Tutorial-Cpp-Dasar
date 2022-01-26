@@ -30,5 +30,6 @@ int main(){
   }
   while (valBool2 <= 20);
   
+  cin.get();
   return 0;
 }

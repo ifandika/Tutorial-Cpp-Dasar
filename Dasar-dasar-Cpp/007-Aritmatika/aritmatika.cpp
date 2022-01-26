@@ -30,5 +30,6 @@ int main(){
   hasil = b % a;
   cout << "Modulus : " << hasil << endl;
   
+  cin.get();
   return 0;
 }

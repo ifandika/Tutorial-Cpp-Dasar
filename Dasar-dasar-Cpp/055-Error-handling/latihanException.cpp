@@ -46,5 +46,7 @@ int main(){
   }
   
   cout << "Akhir dari program" << endl;
+  
+  cin.get();
   return 0;
 }

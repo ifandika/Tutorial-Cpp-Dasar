@@ -46,5 +46,6 @@ int main(){
   
   myFile.close();
   
+  cin.get();
   return 0;
 }

@@ -21,7 +21,7 @@ int main(){
   //OutputFungsi(&Val);
   OutputFungsiSegitiga(&valAlas, &valAlasAtas, &valTinggi);
   
-  cin.get();
+  cin.get(); 
   return 0;
 }
 

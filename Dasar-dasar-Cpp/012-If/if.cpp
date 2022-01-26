@@ -32,5 +32,6 @@ int main(){
     cout << "Nilai yang dimasukan kurang dari 50" << endl;
   }
   
+  cin.get();
   return 0;
 }

@@ -28,5 +28,6 @@ int main(){
   cout << "ifdef : " << OUTPUT << endl;
   cout << "ifndef: " << LANG << endl;
   
+  cin.get();
   return 0;
 }

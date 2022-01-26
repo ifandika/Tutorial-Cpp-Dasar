@@ -40,5 +40,6 @@ int main(){
     cout << "Nilai input tidak kurang dari 5, atau sama dengan 10" << endl;
   }
   
+  cin.get();
   return 0;
 }

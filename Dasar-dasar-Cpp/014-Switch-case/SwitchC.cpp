@@ -51,6 +51,6 @@ int main(){
       cout << "Nilai yang dimasukan bukan 10, 20, 30" << endl;
   }
   
-  
+  cin.get();
   return 0;
 }

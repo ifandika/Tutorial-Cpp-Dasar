@@ -25,5 +25,6 @@ int main(){
   
   readFile.close();
   
+  cin.get();
   return 0;
 }

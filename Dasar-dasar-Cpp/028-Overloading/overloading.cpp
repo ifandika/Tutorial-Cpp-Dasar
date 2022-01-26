@@ -26,5 +26,6 @@ int main(){
   int luasPersegi = hitungLuas(25);
   cout << "hitung luas persegi : " << luasPersegi << " cm²" << endl;
   
+  cin.get();
   return 0;
 }

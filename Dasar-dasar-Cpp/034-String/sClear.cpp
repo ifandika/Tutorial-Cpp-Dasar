@@ -13,5 +13,6 @@ int main(){
   bahasa.clear();
   cout << "bahasa: " << bahasa << endl;
   
+  cin.get();
   return 0;
 }

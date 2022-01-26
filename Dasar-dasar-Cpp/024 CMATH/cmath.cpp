@@ -31,5 +31,6 @@ int main(){
   cout << "akar dari nilai " << nilai;
   cout << " adalah: " << akar << endl;
   
+  cin.get();
   return 0;
 }

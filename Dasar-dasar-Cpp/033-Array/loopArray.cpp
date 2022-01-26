@@ -56,5 +56,6 @@ int main(){
     cout << "Address: " << &valLop << endl;
   }
   
+  cin.get();
   return 0;
 }

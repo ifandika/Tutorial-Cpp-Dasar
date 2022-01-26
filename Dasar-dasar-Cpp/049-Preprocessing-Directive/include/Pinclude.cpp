@@ -15,5 +15,6 @@ int main(){
   cout << "Max: " << MAX(10, 9) << endl;
   cout << "Lang: " << LANG << endl;
   
+  cin.get();
   return 0;
 }

@@ -16,5 +16,6 @@ int main(){
   coba::kuadrat(10);
   coba::cout(10393);
   
+  cin.get();
   return 0;
 }

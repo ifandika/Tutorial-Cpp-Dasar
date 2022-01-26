@@ -29,5 +29,6 @@ int main(){
   }
   cout << "perogram selesai" << endl;
   
+  cin.get();
   return 0;
 }

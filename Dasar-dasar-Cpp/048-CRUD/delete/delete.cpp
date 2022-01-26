@@ -82,6 +82,7 @@ int main(){
   cout << "Program Finished" << endl;
   Data.close();
   
+  cin.get();
   return 0;
 }
 // Function

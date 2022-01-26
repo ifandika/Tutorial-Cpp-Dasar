@@ -44,5 +44,6 @@ int main(){
   cout << "valStr3: " << valStr[2] << endl;
   cout << "valStr4: " << valStr[3] << endl;
   
+  cin.get();
   return 0;
 }

@@ -4,7 +4,14 @@ using namespace std;
 int main(){
   
   // pointer ( Petunjuk ) : address dari nilai, Menunjuk address dari variabel lain
-  // Deklarasi pointer dengan simbol Asterik ( * )
+  // atau ( Variabel yang menyimpan address Variabel lain )
+  
+  // *valPtr   => Deklarasi Variabel Pointer
+  //  valPtr   => Melihat address yang ditunjuk oleh Pointer
+  //  &valPtr  => Melihat address asli dari Variabel Pointer
+  //  nullptr  => Address Pointer kosong / blank
+  //  NULL     => Variabel Pointer Kosong
+  
   // • address selalu berubah ubah
   // dereferencing : mengambil data sebuah pointer
   // jika nilai pointer di ubah, maka nilai yang address sama dengan nilai pointer akan berubah
@@ -42,5 +49,6 @@ int main(){
   cout << "address val_3  : " << &val_3<< endl;
   cout << "address val_Ptr: " << val_Ptr << endl;
   
+  cin.get();
   return 0;
 }

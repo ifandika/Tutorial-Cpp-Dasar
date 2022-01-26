@@ -20,5 +20,6 @@ int main(){
   cout << "NIS siswa: " << siswa.NIS << endl;
   cout << "FOO: " << FOO << endl;
   
+  cin.get();
   return 0;
 }

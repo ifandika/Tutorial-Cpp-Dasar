@@ -43,5 +43,6 @@ int main(){
   sort(huruf.begin(), huruf.end());
   printArray(huruf);
   
+  cin.get();
   return 0;
 }

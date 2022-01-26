@@ -19,6 +19,7 @@ int main(){
   // Fungsi hitungLuasLayang
   hitungLuasLayang();
   
+  cin.get();
   return 0;
 }
 // Fungsi return kuadrat

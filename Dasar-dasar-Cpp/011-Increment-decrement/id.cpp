@@ -20,5 +20,6 @@ int main(){
   nilai2--;
   cout << "Pengurangan " << nilai2 << endl;
   
+  cin.get();
   return 0;
 }

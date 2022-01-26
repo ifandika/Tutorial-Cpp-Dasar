@@ -31,5 +31,6 @@ int main(){
   cout << "Mapel siswa 2 : " << Siswa2.mapel << endl;
   cout << "Nilai siswa 2 : " << Siswa2.nilai << endl;
   
+  cin.get();
   return 0;
 }
