@@ -1,18 +1,19 @@
 #include <iostream>
+
 using namespace std;
 
-union _database_ {
+union database{
   int val_int;
   char val_char[3];
 };
 
 int main(){
   
-  // unions, fungsi yang menyimpan data dengan satu
+  // unions = fungsi yang menyimpan data dengan satu
   // buah block data, dengan satu address namun jika salah 
   // satu data berubah maka data yang lain akan berubah
   
-  _database_ siswa;
+  database siswa;
   
   siswa.val_int = 1000;
   siswa.val_char[0] = 'A';

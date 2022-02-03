@@ -1,8 +1,8 @@
 #include <iostream>
+
 using namespace std;
 
-// Scope global
-struct database{
+struct Siswa{
   int nomer;
   string mapel;
   double nilai;
@@ -10,8 +10,8 @@ struct database{
 
 int main(){
   
-  // struct, sebuah function yang menyimpan berbagai data
-  database Siswa1, Siswa2;
+  // struct = sebuah fungsi yang menyimpan berbagai data dengan tipe berbeda
+  Siswa Siswa1, Siswa2;
   
   Siswa1.nomer = 1;
   Siswa1.mapel = "Mtk";

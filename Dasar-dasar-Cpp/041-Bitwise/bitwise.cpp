@@ -1,23 +1,21 @@
 #include <iostream>
-// standard library bitwise
-#include <bitset>
+#include <bitset> // Library untuk bitset / binary
 #include <string>
+
 using namespace std;
 
-// printData / printBit
 void printBit(string data, unsigned short dataBit){
   cout << data << " = " << bitset<8>(dataBit) << endl;
 }
 
 int main(){
   
-  // bitwise operator
-  // menampilkan jumlah bit pada bilangan
+  // bitwise operator = menampilkan jumlah bit pada bilangan
   // sama seperti gerbang logika
-  // cara print bit
-  // bitset<jumlah bit>(nama data)
+  // cara print bit:
+  // bitset<jumlah bit>(data / variabel)
   
-  // menggunakan unsigned agar + semua
+  // menggunakan unsigned agar ( + ) semua
   unsigned short A = 6;
   unsigned short B = 10;
   unsigned C;
@@ -74,32 +72,32 @@ int main(){
   
   // operator pada bitwise
   
-  // &  = bitwise AND 
+ // &  = bitwise AND 
  // 0 0 = 0
  // 0 1 = 0
  // 1 0 = 0
  // 1 1 = 1
  
-  // |  = bitwise OR ( Inclusif OR)
+ // |  = bitwise OR ( Inclusif OR)
  // 0 0 = 0
  // 0 1 = 1
  // 1 0 = 1
  // 1 1 = 1
  
-  // ^  = bitwise XOR ( Exsklusif OR)
+ // ^  = bitwise XOR ( Exsklusif OR)
  // 0 0 = 0
  // 0 1 = 1
  // 1 0 = 1
- // 1 1 = 
+ // 1 1 = 0
  
-  // ~  = bitwise NOT
+ // ~  = bitwise NOT
  //  0  = 1
  //  1  = 0
  
-  // << = bitwise SHL (Shift Bits Left)
+ // << = bitwise SHL (Shift Bits Left)
  // menggeser bit ke kiri
  
-  // >> = bitwise SHR (shift Bits Right)
+ // >> = bitwise SHR (shift Bits Right)
  // menggeser bit ke kanan
   
   cin.get();

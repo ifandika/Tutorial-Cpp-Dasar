@@ -1,9 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // refrence, sebuah data yang memiliki alamat yang sama
+  // refrence = mengakses sebuah variabel / data dengan address
   // simbol ampersand ( & )
   
   int nilai_1, nilai_2;

@@ -1,23 +1,28 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
   // Logika pada pemrograman
   
-  // Deklarasi
+  // true  = 1
+  // false = 0 
+  
+  // Not = kebalikan, jika hasil true maka dibalik menjadi false
+  // and = Semua input true, untuk menghasilkan true
+  // or  = Salah satu input true, untuk menghasilkan true
+  
   int a = 20;
   int b = 10;
   bool hasil;
   
   // not ( ! ) 
-  // kebalikan dari nilai hasil, jika hasil 1 maka akan menjadi 0
   cout << "Operasi Not\n";
   hasil = !(a == b);
   cout << "Hasil : " << hasil << endl;
   
   // And ( and / && ) 
-  // Menghasilkan True jika semua input true, dan sebaliknya
   cout << "Operasi and\n";
   hasil = ((a == 20) and (b == 10));
   cout << "input 1 | 1 = " << hasil << endl;
@@ -29,7 +34,6 @@ int main(){
   cout << "input 0 | 0 = " << hasil << endl;
   
   // or ( or / || )
-  // Menghasilkan True jika salah satu input True, dan sebaliknya
   cout << "Operasi or\n";
   hasil = ((a == 20) or (b == 10));
   cout << "input 1 | 1 = " << hasil << endl;

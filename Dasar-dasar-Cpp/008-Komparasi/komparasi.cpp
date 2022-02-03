@@ -1,11 +1,11 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // Komparasi / perbandingan
+  // Komparasi = perbandingan, membandingkan
   
-  // Deklarasi
   int a = 10;
   int b = 20;
   bool hasil;

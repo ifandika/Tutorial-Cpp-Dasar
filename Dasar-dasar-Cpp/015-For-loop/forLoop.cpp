@@ -1,27 +1,32 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // for loop
-  // Melooping data / memutar data
+  // for lop = Perulangan, mengulang
   
-  // for (deklarasi; kondisi; increment/decrement){
-  //   statment/hasil yang akan di tampilkan
+  // for (inisialisasi; kondisi; ekpresi){
+  //   statment
   // }
   
-  // Contoh 1
+  cout << "Contoh Loop 1\n";
   int nilai1 = 20;
   for (int loop = 0; loop <= nilai1; loop++){
     cout << "loop " << loop;
     cout << "\t\tNilai " << nilai1 << endl;
   }
   
-  // Contoh 2
+  cout << "\nContoh Loop 2\n";
   int nilai2 = 10;
-  
   for (nilai2; nilai2 <= 20; nilai2++){
     cout << nilai2 << endl;
+  }
+  
+  cout << "\nContoh Loop 3\n";
+  int nilai3 = 10, hasil = 0;      // Ekpresi bisa lebih dari 1
+  for (int iLop = 1; iLop <= nilai3; iLop++, hasil += iLop){
+    cout << iLop << " | " << hasil << endl;
   }
   
   cin.get();

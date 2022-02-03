@@ -1,16 +1,17 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // typedef = memberikan alias untuk tipe data
+  // typedef = memberikan alias untuk sebuah variabel / data
   
   int nilaiA = 100;
   cout << "nilaiA: " << nilaiA << endl;
   
-  // scope typedef xxx
-  typedef int I;// menyingkat int mjd = I
-  // scope typedef ✓✓✓
+  // scope typedef "yang tidak bagus"
+  typedef int I;// menyingkat int menjadi = I
+  // scope typedef "yang bagus"
   typedef int Iarray5D[5];
   
   I nilaiB = 10;

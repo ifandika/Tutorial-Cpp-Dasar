@@ -1,14 +1,15 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
   // Looping while
-  // while (data yang eksekusi, biasanya berupa true / false){
-  //   statment
+  
+  // while (syarat){
+  //   aksi
   // }
   
-  // Deklarasi
   bool nilaiBool = true;
 
   // Kekurangnya ketika true maka akan me looping terus tanpa henti
@@ -18,16 +19,16 @@ int main(){
   while (nilaiBool){
     // Agar berhenti maka kita buat cara
     cout << "Hello bro" << endl;
-    break;
+    nilaiBool = false;
   }
   
   // Contoh 2
-  int begin = 10;
+  int nilai = 10;
   
-  while (begin <= 30){
-    cout << "Begin = " << begin << endl;
-    // Menggunakan assigment agar berhenti
-    begin += 5;
+  while (nilai <= 30){
+    cout << "Loop ke  " << nilai << endl;
+    // Menggunakan assigment agar syarat dapat berhenti
+    nilai += 2;
   }
   
   cin.get();

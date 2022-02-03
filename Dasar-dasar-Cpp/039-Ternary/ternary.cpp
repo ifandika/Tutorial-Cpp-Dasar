@@ -1,5 +1,12 @@
 #include <iostream>
+
 using namespace std;
+
+// Ternary operator = ?
+// (( kondisi ) ? hasil1 : hasil2 )
+// kondisi = berupa logika, komparasi, true/false
+// hasil1  = true
+// hasil2  = false
 
 int main(){
   
@@ -11,7 +18,6 @@ int main(){
   //           kondisi         true  | false
   cout << ((nilaiA < nilaiB) ? nilaiA:nilaiB) << endl;
   
-  // contoh dengan input
   int input;
   string outputA = "Nilai yang dimasukan lebih dari 10";
   string outputB = "Nilai yang dimasukan kurang dari 10";

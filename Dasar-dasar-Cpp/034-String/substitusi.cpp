@@ -1,8 +1,10 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main(){
+  
   // operasi substitusi pada string
   string kata_1("rasanya seperti ironmen");
   string kata_2("rasanya anying banget");

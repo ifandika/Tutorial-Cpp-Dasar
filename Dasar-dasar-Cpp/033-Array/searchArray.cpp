@@ -1,7 +1,7 @@
 #include <iostream>
 #include <array>
-// Standard Library Untuk Sorting, Search dll
-#include <algorithm>
+#include <algorithm> // library untuk sorting, search dll
+
 using namespace std;
 
 const size_t sizeArray = 10;
@@ -17,11 +17,8 @@ void print_Data(array<int, sizeArray> &data){
 
 int main(){
   
-  // mencari data pada.
-  // ketika search data array, harus di urutkan dulu data nya, denga sort
-  // jika tidak maka program tidak berjalan semetinya.
-  // dengan method,
-  // binary_search(array.begin(), array.end(), data_cari);
+  // sebelum search data array, harus di urutkan dulu jika data belum urut
+  // binary_search(array.begin(), array.end(), data / variabel);
   
   array<int, sizeArray> nilai = {0,9,5,7,6,2,3,1,8,4};
   int search;
@@ -32,16 +29,16 @@ int main(){
   print_Data(nilai);
   
   cout << endl;
-  cout << "search nilai pada array di atas: ";                          
+  cout << "cari nilai pada array di atas: ";                          
   cin >> search;
   
   // menggunakan boolean untuk hasil search array
   result = binary_search(nilai.begin(), nilai.end(), search);
   
-  if (result){// True
+  if (result){ // True
     cout << "data ditemukan" << endl;
   }
-  else {// False
+  else { // False
     cout << "data tidak ditemukan" << endl;
   }
   

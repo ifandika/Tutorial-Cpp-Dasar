@@ -1,14 +1,14 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // Operasi if else
-  //  suatu operasi yang me outputkan nilai yang
-  //  true maupun false, jika suatu kondisi benar
-  //  maka kondisi yang di bawah tidak di exsekusi
+  // If Else Statment
+  // If = Jika kondisi benar maka statment akan di jalankan
+  // Else If = Kondisi lain dari if
+  // Else = Jika Kondisi pada if tidak terpenuhi / false maka else yang akan dijalankan
   
-  // Deklarasi
   int nilai = 10;
   
   if (nilai < 5){
@@ -18,25 +18,20 @@ int main(){
     cout << "Nilai lebih dari 5" << endl;
   }
   
-  // else adalah ketika kondisi yang ada di 
-  // atasnya tidak benar maka else yang akan 
-  // di outputkan
   
   cout << endl;
-  // selain if dan else, ada juga else if
-  // contoh dengan inputan
   int input;
   
   cout << "Masukan nilai input : ";
   cin >> input;
   
-  if (input < 5){
+  if (input < 5){ // Jika Input == 5 maka if akan di jalankan
     cout << "Nilai input kurang dari 5" << endl;
   }
-  else if (input == 10){
+  else if (input == 10){ // Jika Input == 10 maka else if akan di jalankan
     cout << "Nilai input adalah 10" << endl;
   }
-  else {
+  else { // Jika kondisi pada if, else if tidak terpeneuhi maka else akan di jalankan
     cout << "Nilai input tidak kurang dari 5, atau sama dengan 10" << endl;
   }
   

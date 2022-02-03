@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 // void print(int data){ => jika kita memasukan char maka tidak sesuai,
@@ -48,8 +49,6 @@ int main(){
   
   // => merubah double menjadi integer, namun biasanya akan warning
   cout << output<int>(10.9383) << endl;
-  
-  cout  << endl;
   
   cin.get();
   return 0;

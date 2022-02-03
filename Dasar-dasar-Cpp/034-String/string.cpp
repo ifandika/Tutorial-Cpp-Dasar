@@ -1,11 +1,11 @@
 #include <iostream>
-// standard library string
-#include <string>
+#include <string> // library string
+
 using namespace std;
 
 int main(){
   
-  // string, tipe data berupa sekumpulan karakter yang menjadi kalimat
+  // string = Sekumpulan Char Array "Lambat"
   
   string val_string;
   

@@ -1,27 +1,25 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // Looping yang sama seperti while, namun 
-  // memungkinkan untuk melakukan 1 tindakan
-  // 
-  // do {
-  //   tindakan/ berupa output
-  // }
-  // while (kondisi);
+  // Loping do while
   
-  // Contoh 1
+  // do {
+  //   aksi
+  // } while (syarat);
+  
   bool valBool = true;
   
   do {
-    cout << "Looping do while" << endl;
-    break;
+    cout << "Looping do while 1" << endl;
+    valBool = false;
   }
   while (valBool);
   
   cout << endl;
-  // Contoh 2
+  
   int valBool2 = 0;
   
   do {

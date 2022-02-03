@@ -1,9 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 //  # = setiap tanda hash adalah Preprocessing Directive
 //      Preprocessing Directive tidak masuk ke dalam compile
-//  > | File.cpp | -> | Preprocessing | -> | Compile |
+//  > | File.cpp | -> | Preprocessing | -> | Compile | -> | Lingking | END
 
 // macro
 // Preprocessing Directive tidak memakai memory

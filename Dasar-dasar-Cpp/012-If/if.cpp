@@ -1,12 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // Operasi if 
-  //  suatu operasi yang menentukan jika 
-  //  suatu kondisi true/benar maka akan 
-  //  me outputkan sesuatu 
+  // If Statment = Jika Suatu kondisi true maka statment dalam if dijalankan
   
   // if ( kondisi ){
   //  statment

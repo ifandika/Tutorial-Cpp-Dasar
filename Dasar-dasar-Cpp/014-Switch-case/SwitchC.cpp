@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
@@ -8,10 +9,9 @@ int main(){
   //  harus pas tidak boleh ambigu, seperti
   //  tidak boleh kurang, atau lebih besar
   
-  // Deklarasi
   int nilai = 20;
   
-  // switch (nilai yang akan dimasukan){
+  // switch (nilai / statment / variabel){
   //   case kondisi:
   //     statment
   //   case kondisi:

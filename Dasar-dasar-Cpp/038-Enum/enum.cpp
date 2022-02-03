@@ -1,10 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // Ternary operator, alias untuk nilai
-  
+  // enum = Keyword, alias untuk sebuah data
   // cukup mendeklarasikan Index yang pertama, dan yang seterusnya akan mengikuti
   enum Keyword{A = 1, B, C, D, E};
   

@@ -1,9 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // operator casting, merubah tipe data ke tipe data lain
+  // operator casting = merubah tipe data ke tipe data lain
   // int menjadi double, int menjadi char dll
   
   int nilai_i = 5;

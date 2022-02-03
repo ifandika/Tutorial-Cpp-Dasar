@@ -1,11 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
   
-  // Aritmatika pada pemrograman C++
-
-  // Deklarasi nilai
+  // Operator Aritmatika: + | - | * | / | %
   int a = 10;
   int b = 20;
   int hasil;

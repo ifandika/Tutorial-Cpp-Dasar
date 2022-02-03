@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 void print_Data(int &data){
@@ -8,7 +9,6 @@ void print_Data(int &data){
 int main(){
   
   // operator comma
-  // ( expresi )
   
   int val_1;
   int val_2;
@@ -18,8 +18,7 @@ int main(){
   val_1 = 5;
   val_2 = 10;
   hasil = val_1 + val_2;
-  cout << hasil << endl;
-  cout << endl;
+  cout << hasil << endl << endl;
   
   // menggunakan comma operator
   hasil = (val_1 = 5 , val_2 = 10 , (val_1+val_2));                                            

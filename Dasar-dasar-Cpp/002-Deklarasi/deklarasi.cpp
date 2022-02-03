@@ -1,4 +1,4 @@
-// #include -> Meinclude/mengcopy semua file 
+// #include -> Meinclude/Mengcopy/Mengambil semua file 
 // <iostream> -> File yang digunakan untuk memprogram C++/cpp
 #include <iostream>
 

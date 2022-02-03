@@ -3,9 +3,8 @@ using namespace std;
 
 int main(){
   
-  // method / fungsi untuk berhenti atau lanjut
-  // break; stop/berhenti
-  // continue; lanjut
+  // Break | Continue = Control Flow
+  // Break = Berhenti
   
   // contoh dalam switch case
   int value = 20;
@@ -19,7 +18,15 @@ int main(){
     case 5:
       cout << "Nilai adalah 5" << endl;
     default: // Jika Kondisi di atas tidak ada yang terpenuhi
-      cout << "Nilai bukan 20, 10 atau 5" << endl;
+      cout << "Nilai bukan 20, 10 atau 5" << endl << endl;
+  }
+  
+  // Contoh dalam loop
+  for (int iLop = 0; iLop <= value; iLop++){
+    if (iLop == 5){
+      break;
+    }
+    cout << iLop << endl;
   }
   
   cin.get();

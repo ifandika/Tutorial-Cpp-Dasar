@@ -1,20 +1,24 @@
 #include <iostream>
-// standard library array
-#include <array>
+#include <array> // Library Array
+
 using namespace std;
 
 int main(){
   
-  // array, sebuah fungsi untuk menyimpan data dengan address berurutan
+  // array = Sekumpulan data bertipe sama dengan address yang berurutan
   // index / nomer pada array di mulai dari 0,
-  // pada array jumlah data yang akan dimasukan harus diketahui
   
   // array tanpa standard library
+  // cara mengisi nilai array:
+  // cara 1
   int valArray[3];
-  // mengisi data / nilai pada array jika array kosong
   valArray[0] = 10;
   valArray[1] = 20;
   valArray[2] = 15;
+  
+  // memanipulasi array dengan Pointer
+  int *nilaiPtr = valArray;
+  *(nilaiPtr + 2) = 1234; // akan merubah nilai array pada index 2
   
   cout << "Nilai array 0: " << valArray[0] << endl;
   cout << "Nilai array 1: " << valArray[1] << endl;
@@ -25,7 +29,7 @@ int main(){
   
   cout << endl;
   
-  //mengisi nilai / data array pada saat deklar array
+  // cara 2
   double nilaiArray[4] = {0,10,20,30};
   
   cout << "Nilai array 0: " << nilaiArray[0] << endl;
