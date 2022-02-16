@@ -12,11 +12,10 @@ int main(){
     cout << "berhasil" << endl;
   }
   // program perbandingan 
-  bool operasi = true;
   string nama;
   string nama_rahasia("jamet");
   
-  while (operasi){
+  while (true){
     cout << "masukan nama rahasia; ";
     cin >> nama;
     cout << "nama yang dimasukan: ";

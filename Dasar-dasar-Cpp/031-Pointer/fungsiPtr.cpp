@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void OutputFungsi(int *);
+void OutputFungsi(int *valPtr);
 void OutputFungsiSegitiga(double *, double *, double *);
 
 int main(){
@@ -19,7 +19,7 @@ int main(){
   cout << "Masukan Nilai Tinggi : ";
   cin >> valTinggi;
   
-  //OutputFungsi(&Val);
+  // OutputFungsi(&Val);
   OutputFungsiSegitiga(&valAlas, &valAlasAtas, &valTinggi);
   
   cin.get(); 

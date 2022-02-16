@@ -1,0 +1,2 @@
+menuliskan nilai integer ke file
+1455368

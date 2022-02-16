@@ -9,7 +9,6 @@ int main(){
   int nilaiA = 100;
   cout << "nilaiA: " << nilaiA << endl;
   
-  // scope typedef "yang tidak bagus"
   typedef int I;// menyingkat int menjadi = I
   // scope typedef "yang bagus"
   typedef int Iarray5D[5];
@@ -25,7 +24,7 @@ int main(){
   cout << nilaiC[3] << " ";
   cout << nilaiC[4] << endl;
   
-  // method  = using
+  // menggunakan using
   using valDo = double;
   
   valDo nilaiD = 8.83873;

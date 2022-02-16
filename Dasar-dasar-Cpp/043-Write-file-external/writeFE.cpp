@@ -1,21 +1,20 @@
 #include <iostream>
-// standard library untuk Write, Read dll
-// fstream = ofstream + ifstream
-#include <fstream>
+#include <fstream> // library file stream
+// gabungan dari = <ofstream> + <ifstream> menjadi satu <fstream>
 #include <string>
+
 using namespace std;
 
 int main(){
   
-  // write data ke file external <ofstream>
   // menggunakan simbol ( << )
   // ofstream = output file stream
-  // method:
-  // ios::app ( menuliska  data pada baris baru )
-  // ios::trunc | default ( membuat file baru, jika ada tetap di buat dan file lama akan dihapus)
-  // ios::out | default ( memberikan output, menuliskan data ke file )
+  
+  // ios::app = menuliska  data pada baris baru
+  // ios::trunc = default,  membuat file baru, jika ada tetap di buat dan file lama akan dihapus
+  // ios::out = default,  memberikan output ke file, menuliskan data ke file
+  
   // jika method lebih dari 1, gunakan simbol ( | )
-  // ios::binary ( file menjadi biner / binary )
   
   // .open()  = membuka file
   // .close() = menutup file
@@ -37,6 +36,13 @@ int main(){
   myFile << "menuliskan data dengan method ios::app" << endl;
   myFile << "menuliskan data ke file data3.txt" << endl;
   myFile << "menambahkan baris baru" << endl;
+  myFile.close();
+  
+  // menuliskan integer ke dalam file
+  int nilai = 1455368;
+  myFile.open("data4.txt", ios::out);
+  myFile << "menuliskan nilai integer ke file\n";
+  myFile << nilai << endl;
   myFile.close();
   
   cin.get();

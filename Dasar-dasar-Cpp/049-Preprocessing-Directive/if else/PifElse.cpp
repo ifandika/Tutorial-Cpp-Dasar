@@ -1,4 +1,7 @@
 #include <iostream>
+
+using namespace std;
+
 // if else di preprocessing
 #define ID 1
 
@@ -17,8 +20,6 @@
 #else
   #define OUTPUT "Nilai lebih dari 100"
 #endif
-
-using namespace std;
 
 int main(){
   

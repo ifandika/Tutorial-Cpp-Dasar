@@ -6,7 +6,7 @@
 #include "file2.h"
 
 // kita sudah men define FOO di file1.h dan file2.h
-// namu kadang² compiler ada yang error dan ada yang tidak
+// namun kadang² compiler ada yang error dan ada yang tidak
 
 using namespace std;
 int main(){

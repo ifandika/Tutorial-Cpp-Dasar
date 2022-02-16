@@ -4,6 +4,7 @@ using namespace std;
 
 //  # = setiap tanda hash adalah Preprocessing Directive
 //      Preprocessing Directive tidak masuk ke dalam compile
+//      namun akan masuk ke dalam Preprocessing untuk di proses
 //  > | File.cpp | -> | Preprocessing | -> | Compile | -> | Lingking | END
 
 // macro

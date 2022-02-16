@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-// library untuk mengetahui nama tipe data
-#include <typeinfo>
+#include <typeinfo> // library untuk mengetahui tipe data
+
 using namespace std;
 
 // => jika kita memasukan double maka hasilnya int
@@ -24,13 +24,13 @@ auto maX(TypA data1, TypB data2){
 
 int main(){
   
-  // auto = method yang bisa menerima berbagai data
+  // auto = keyword untuk tipe data otomatis
   // auto umumnya digunakan dalam membuat fungsi
   
   int A = 282;
-  auto B = 281.8282;// Akan otomatis menjadi double
+  double B = 281.8282;
   auto C = 'C';
-  auto D = "Ewewewe";
+  auto D = "Ewewewe"; // otomatis menjadi string
   auto hasil = maX(A, B);
   
   cout << "nilai A: " << A << "\t\tTipe data: " << typeid(A).name() << endl;

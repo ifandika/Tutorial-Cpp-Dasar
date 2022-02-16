@@ -11,7 +11,7 @@ void print(T data){
   cout << data << endl;
 }
 
-// setelah typename (Type) boleh bebas, hanya untuk deklarasi nama
+// setelah <typename (Type)> boleh bebas, hanya untuk deklarasi nama
 template<typename Typ>
 double printKuadrat(Typ data){
   return data*data;
@@ -34,7 +34,7 @@ int main(){
   //            kelakuannya sama namun memerlukan parameter yang berbeda
   // fungsi bisa dipanggil bersamaan
   
-  // method;
+  // keyword
   // template<typename T>
   
   print(100);

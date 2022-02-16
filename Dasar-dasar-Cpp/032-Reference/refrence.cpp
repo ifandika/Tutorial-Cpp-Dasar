@@ -4,7 +4,8 @@ using namespace std;
 
 int main(){
   
-  // refrence = mengakses sebuah variabel / data dengan address
+  // refrence = alias / membuat duplikat untuk variabel
+  // memiliki address dan nilai yang sama walau salah satu di ubah
   // simbol ampersand ( & )
   
   int nilai_1, nilai_2;

@@ -9,8 +9,8 @@ union database{
 
 int main(){
   
-  // unions = fungsi yang menyimpan data dengan satu
-  // buah block data, dengan satu address namun jika salah 
+  // unions = fungsi yang menyimpan berbagai data namun
+  // menyimpan di sebuah block data, dengan satu address namun jika salah 
   // satu data berubah maka data yang lain akan berubah
   
   database siswa;

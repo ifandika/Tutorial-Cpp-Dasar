@@ -10,8 +10,8 @@ struct Siswa{// Data Siswa
 };
 
 // Function read data in database
-void readData(fstream &data, int poisis, Siswa &dataSiswa){
-  data.seekp((poisis - 1)*sizeof(Siswa), ios::beg);
+void readData(fstream &data, int posisi, Siswa &dataSiswa){
+  data.seekp((posisi - 1)*sizeof(Siswa));
   data.read(reinterpret_cast<char*>(&dataSiswa), sizeof(Siswa));
   
   cout << "NIS    : " << dataSiswa.NIS << endl;

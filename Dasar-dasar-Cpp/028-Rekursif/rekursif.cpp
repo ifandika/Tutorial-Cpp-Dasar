@@ -33,7 +33,7 @@ int pangkatRekursif(int nilai, int pangkat){
 int main(){
   
   // Rekursif / Recursion = Pengulangan / Mengulang
-  // atau dalam pemrograman = Suatu fungsi yang memanggil fungsinya dirinya sendiri
+  // atau dalam pemrograman = Suatu fungsi yang memanggil dirinya sendiri
   
   int inputNilai, inputPangkat;
   

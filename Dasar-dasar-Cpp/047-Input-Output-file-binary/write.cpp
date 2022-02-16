@@ -9,15 +9,8 @@ struct Siswa{// Data siswa
   string jurusan;
 };
 
-// fungsi write data
-void writeData(fstream &data, Siswa &siswa){                
-  data.write(reinterpret_cast<char*>(&siswa), sizeof(Siswa));
-};
-// fungsi ubah data Siswa
-void updateData(fstream &data, int posisi, Siswa &siswa){
-  data.seekg((posisi - 1)*sizeof(Siswa), ios::beg);
-  data.write(reinterpret_cast<char*>(&siswa), sizeof(Siswa));
-};
+void writeData(fstream &data, Siswa &siswa);
+void updateDataByPos(int posisi, Siswa &dataSiswa, fstream &dataFile);
 
 int main(){
   fstream myFile;
@@ -40,12 +33,28 @@ int main(){
   siswa3.nama = "Sopo";
   siswa3.jurusan = "TL";
   
+  // write data
   writeData(myFile, siswa1);
   writeData(myFile, siswa2);
   writeData(myFile, siswa3);
+  
+  // ubah data dan tulis data by posisi
+  siswa2.nama = "Jarwo";
+  updateDataByPos(2, siswa2, myFile);
   
   myFile.close();
   
   cin.get();
   return 0;
+}
+
+// write data
+void writeData(fstream &data, Siswa &siswa){                
+  data.write(reinterpret_cast<char*>(&siswa), sizeof(Siswa));
+}
+
+// ubah data by id / posisi
+void updateDataByPos(int posisi, Siswa &dataSiswa, fstream &dataFile){
+  dataFile.seekg((posisi - 1)*sizeof(Siswa));
+  dataFile.write(reinterpret_cast<char*>(&dataSiswa), sizeof(Siswa));
 }

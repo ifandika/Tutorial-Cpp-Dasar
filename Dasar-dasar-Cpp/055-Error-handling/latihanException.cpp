@@ -8,6 +8,7 @@ int fungsiBagi(int &nilai, int &dibagi){
     // jika pembagi 0, maka akan melempar throw, skip return
     // memberikan clas/objek pada throw contoh ( overflow_error )
     throw overflow_error("Error: Pembagi 0");
+    // throw "Error: Pembagi o"; // tanpa library exception
   }
   return nilai / dibagi;
 }
@@ -35,6 +36,7 @@ int main(){
       // parameter exception = (exception &hasil) + hasil.what()
       // jika menggunakan overflow_error maka tidak perlu menngunakan (const char *hasil)
       // cukup gunakan ( exception &hasil )
+    // }catch(const char* data){ // tanpa library exception
     }catch(exception &output){
       cout << output.what() << endl;
     }
