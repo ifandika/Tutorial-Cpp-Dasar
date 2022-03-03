@@ -16,7 +16,7 @@ int getMenu();// Menu Program
 void get_CheckDatabase(fstream &);// Check database
 int get_CheckSize(fstream &);// Check size data struct
 Siswa get_ReadDataSiswa(fstream &, int posisi);// Read data Siswa in database
-void get_WriteData(fstream &, int nomer);// Write data Siswa in database
+void get_WriteData(fstream &, int nomer, Siswa &dataSiswa);// Write data Siswa in database
 void get_AddSiswa(fstream &);// Add Siswa
 void get_DisplayData(fstream &);// Display data Siswa in consolo
 void get_UpdateData(fstream &);// Update data Student
